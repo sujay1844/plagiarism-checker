@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "*"
+flask = "*"
+tensorflow = "*"
+tensorflow-text = "*"
+tensorflow-hub = "*"
+transformers = "*"
+torch = "*"
+pandas = "*"
+sklearn = "*"
+numpy = "*"
+scikit-learn = "*"
+spacy = "*"
+
+[dev-packages]
+ipykernel = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.11"
